@@ -1,0 +1,100 @@
+.dashboard-header {
+  height: 165px;
+  width: 100%;
+  background-image: linear-gradient(to right, #70bcff, #006dcc);
+}
+
+.content-dashboard-header {
+  color: white;
+  padding: 20px;
+}
+
+.content-dashboard-header h3 {
+  font-size: 32px;
+  color: white;
+}
+
+.content-dashboard-header p {
+  margin-top: 12px;
+}
+
+.content-dashboard-main {
+  margin: -40px 20px 0;
+}
+
+.cart-body {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cart-body:last-child {
+  margin-right: 20px;
+}
+
+/* .cart-body-second {
+  margin: 0 20px;
+} */
+
+.cart-body-left i {
+  font-size: 32px;
+  color: #929aac;
+}
+
+.cart-body-right {
+  margin-left: 20px;
+}
+
+.cart-body-right p {
+  color: #929aac;
+}
+
+.cart-body-right h4 {
+  font-size: 24px;
+}
+
+.cart-left-first i {
+  color: #3a57e8;
+}
+
+.cart-left-second i {
+  color: #4bc7d2;
+}
+
+.cart-left-third i {
+  color: #3a57e8;
+}
+
+.wrapper-chart {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapper-chart-left {
+  width: 65%;
+}
+
+.wrapper-chart-right {
+  width: calc(100% - 65% - 20px);
+}
+
+.wrapper-line-chart {
+  background-color: white;
+  margin: 20px 0 0;
+  width: 100%;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.wrapper-cycle-chart {
+  margin-left: 20px;
+  background-color: white;
+  margin: 20px 0 0;
+  width: 100%;
+  border-radius: 8px;
+  padding: 12px;
+}

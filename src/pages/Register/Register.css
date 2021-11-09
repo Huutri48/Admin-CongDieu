@@ -1,0 +1,89 @@
+.wrapper-register {
+  background-color: #f2f3f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.wrapper-register-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.content-register {
+  background-color: white;
+  width: 45%;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.title-register {
+  margin-bottom: 20px;
+}
+
+.form-groups-sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-register {
+  padding: 10px 16px;
+}
+
+.content-action-register,
+.btn-action-register {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .btn-action-register {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.btn-register-facebook {
+  background-color: #1877f2;
+}
+
+.icon-register-facebook,
+.text-register-facebook {
+  color: white;
+}
+
+.fa-facebook-official,
+.fa-google-plus-square {
+  font-size: 24px;
+}
+
+.btn-register-google {
+  background-color: #dc4e42;
+}
+
+.icon-register-google,
+.text-register-google {
+  color: white;
+} */
+
+.btn-icon-register {
+  margin-right: 12px;
+}
+
+.more-title-register {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.more-title-register p {
+  color: rgba(0, 0, 0, 0.26);
+  font-size: 14px;
+}
+
+.text-more-register {
+  color: #dc4e42;
+}

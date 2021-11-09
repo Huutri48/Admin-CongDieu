@@ -1,0 +1,19 @@
+.add-film-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.content-breadcrumb {
+  display: flex;
+}
+
+.content-breadcrumb li {
+  margin-left: 12px;
+}
+
+.add-film-main {
+  padding: 12px 20px;
+}

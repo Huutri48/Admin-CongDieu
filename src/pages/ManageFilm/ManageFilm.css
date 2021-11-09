@@ -1,0 +1,27 @@
+.manage-film-item-image img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.bt-upload {
+  background-color: rgba(0, 128, 0, 0.3);
+  color: green;
+  /* margin-left: 12px; */
+}
+
+.action-manage-film-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-manage-film-bottom {
+  margin-top: 12px;
+}
+
+.action-manage-film-bottom button {
+  background-color: #3a57e8;
+  color: white;
+  font-size: 12px;
+  padding: 6px 12px;
+}

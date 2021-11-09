@@ -1,0 +1,77 @@
+.wrap-sidebar-admin {
+  display: flex;
+}
+
+.content-sidebar-left {
+  background-color: rgba(0, 0, 0, 0.911);
+
+  background-image: url("https://huutri48.github.io/321321/static/media/asfalt-light.0dc0248a.png");
+
+  /* min-height: calc(100vh - 54px); */
+  height: 100%;
+  max-height: 100%;
+  width: 210px;
+  position: fixed;
+  left: 0;
+  top: 54px;
+  width: 210px;
+  overflow-y: auto;
+  /* margin-top: 2px; */
+  box-shadow: 8px 8px 28px rgba(0, 0, 0, 8%);
+}
+
+.menu-sidebar {
+  margin-top: 20px;
+}
+
+.item-sidebar {
+  padding: 0 12px;
+}
+
+.item-sidebar-logout {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 210px;
+}
+
+.link-sidebar {
+  display: block;
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.link-sidebar:hover {
+  background-color: #ff4444;
+  color: white;
+  -webkit-box-shadow: 0 10px 20px -10px rgb(17 38 146 / 40%);
+  box-shadow: 0 10px 20px -10px rgb(17 38 146 / 40%);
+  border-radius: 4px;
+}
+
+.link-sidebar i {
+  width: 10px;
+  height: 10px;
+}
+
+.item-name {
+  margin-left: 12px;
+}
+
+.active-link-admin {
+  background-color: #ff4444;
+  color: #fff;
+  -webkit-box-shadow: 0 10px 20px -10px rgb(17 38 146 / 40%);
+  box-shadow: 0 10px 20px -10px rgb(17 38 146 / 40%);
+  border-radius: 4px;
+}
+
+.content-sidebar-right {
+  padding: 12px;
+  width: calc(100% - 210px);
+  overflow: hidden;
+  margin-left: 210px;
+  background-color: #f1f3f5;
+}

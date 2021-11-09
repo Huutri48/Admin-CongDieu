@@ -1,0 +1,61 @@
+.wrapper-header-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 54px;
+  position: sticky;
+  background-color: #252525;
+  top: 0;
+  z-index: 9;
+}
+
+.content-header-left h1 {
+  color: #ff4f4f;
+  font-size: 24px;
+}
+
+/* .content-header-right {
+  margin-right: 12px;
+} */
+
+.content-header-name {
+  padding: 6px 12px 6px 12px;
+  border-radius: 12px;
+  background-color: #f2d6d3;
+}
+
+.content-header-name:hover {
+  cursor: pointer;
+  background-color: #f18d81;
+  color: white;
+}
+
+.sign {
+  font-family: "Staatliches", cursive;
+  margin-left: 50 px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff6565,
+    -0.2rem 0.1rem 1rem #ff6565, 0.2rem 0.1rem 1rem #ff6565,
+    0 -0.5rem 2rem #ff2424, 0 0.5rem 3rem #ff2424;
+  -webkit-animation: shine 2s forwards, flicker 3s infinite;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+.flicker1 {
+  -webkit-animation: shine 2s forwards, blink 3s 4s infinite;
+  animation: shine 2s forwards, blink 3s 4s infinite;
+}
+
+.flicker2 {
+  -webkit-animation: shine 2s forwards, blink 6s 2s infinite;
+  animation: shine 2s forwards, blink 6s 2s infinite;
+}
+
+.flicker3 {
+  -webkit-animation: shine 2s forwards, blink 8s 1s infinite;
+  animation: shine 2s forwards, blink 8s 1s infinite;
+}
